@@ -1,0 +1,41 @@
+#gameover {
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+#gameover h1 {
+    font-weight: 400;
+
+}
+
+#gameover .options_container {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    /* background-color: red; */
+}
+
+#gameover .options_container li {
+    transition: all .2s ease-in-out;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    text-align: start;
+
+    background-color: transparent;
+    border-radius: 1rem;
+    padding: .8rem 1.5rem;
+    border: 3px solid black;
+    color: black;
+}
+
+#gameover .options_container li:hover {
+    opacity: .9;
+    background-color: black;
+    padding: .8rem 1.5rem;
+    border: 3px solid black;
+    color: white;
+}

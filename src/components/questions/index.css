@@ -1,0 +1,79 @@
+#questions {
+    padding: 1rem;
+    border-radius: 1rem;
+    max-width: 450px;
+    transition: all .2s ease-in-out;
+}
+
+#questions h1 {
+    text-align: left;
+    margin-block: 10px;
+    font-weight: 400;
+
+}
+
+#questions h3 {
+    text-align: left;
+    width: 100%;
+
+}
+
+#questions p {
+    margin-block: 10px;
+    font-weight: 400;
+    width: 100%;
+    text-align: left;
+
+}
+
+#questions .options_container {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+}
+
+#questions .options_container li {
+    transition: all .2s ease-in-out;
+    width: 100%;
+    padding: 10px;
+    margin-block: 8px;
+    text-align: start;
+
+    background-color: transparent;
+    border-radius: 1rem;
+    padding: .8rem 1.5rem;
+    border: 3px solid black;
+    color: black;
+    cursor: pointer;
+}
+
+#questions .options_container li:hover {
+    opacity: .9;
+    background-color: black;
+    padding: .8rem 1.5rem;
+    border: 3px solid black;
+    color: white;
+}
+
+#questions .options_container li.correct {
+    opacity: 1;
+    background-color: rgb(120, 255, 94);
+    padding: .8rem 1.5rem;
+    border: 3px solid black;
+    color: rgb(0, 0, 0);
+}
+
+#questions .options_container li.wrong {
+    opacity: 1;
+    background-color: rgb(255, 94, 94);
+    padding: .8rem 1.5rem;
+    border: 3px solid black;
+    color: rgb(255, 255, 255);
+}
+
+#questions .options_container li.disabled {
+    opacity: .5;
+}
